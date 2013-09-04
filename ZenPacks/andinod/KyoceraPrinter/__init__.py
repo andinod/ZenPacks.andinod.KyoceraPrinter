@@ -1,0 +1,5 @@
+productNames = (
+	'KyoceraPrinterDevice',
+	'TonerContainer',
+	'PrinterCover',
+	)

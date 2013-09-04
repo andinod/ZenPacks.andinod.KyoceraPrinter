@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure xmlns="http://namespaces.zope.org/browser">
+
+    <resourceDirectory
+        name="kyoceraprinter"
+        directory="resources"
+        />
+
+    <viewlet
+        name="js-kyoceraprinterdevice"
+        paths="/++resource++kyoceraprinter/js/KyoceraPrinterDevice.js"
+        weight="10"
+        for="..KyoceraPrinterDevice.KyoceraPrinterDevice"
+        manager="Products.ZenUI3.browser.interfaces.IJavaScriptSrcManager"
+        class="Products.ZenUI3.browser.javascript.JavaScriptSrcBundleViewlet"
+        permission="zope2.Public"
+        />
+
+</configure>
